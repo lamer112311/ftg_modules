@@ -4,7 +4,7 @@ import os
 import sys
 a = 0
 
-@borg.on(events.NewMessage(pattern=r"\.ч", outgoing=True))#🕐🕑🕒🕓🕔🕕🕖🕗🕘🕙
+@borg.on(events.NewMessage(pattern=r"\.h", outgoing=True))#🕐🕑🕒🕓🕔🕕🕖🕗🕘🕙
 async def _(event):
     if event.fwd_from:
         return
