@@ -8,7 +8,6 @@ a = 0
 async def _(event):
     if event.fwd_from:
         return
-        if a<4:
      await event.edit("🕐")
      await asyncio.sleep(0.5)
      await event.edit("🕑")
@@ -27,7 +26,42 @@ async def _(event):
      await asyncio.sleep(0.5)
      await event.edit("🕙")
      await asyncio.sleep(0.5)
-     a+1
+     await event.edit("🕐")
+     await asyncio.sleep(0.5)
+     await event.edit("🕑")
+     await asyncio.sleep(0.5)
+     await event.edit("🕒..")
+     await asyncio.sleep(0.5)
+     await event.edit("🕓")
+     await asyncio.sleep(0.5)
+     await event.edit("🕕")
+     await asyncio.sleep(0.5)
+     await event.edit("🕖")
+     await asyncio.sleep(0.5)
+     await event.edit("🕗")
+     await asyncio.sleep(0.5)
+     await event.edit("🕘")
+     await asyncio.sleep(0.5)
+     await event.edit("🕙")
+     await asyncio.sleep(0.5)
+     await event.edit("🕐")
+     await asyncio.sleep(0.5)
+     await event.edit("🕑")
+     await asyncio.sleep(0.5)
+     await event.edit("🕒..")
+     await asyncio.sleep(0.5)
+     await event.edit("🕓")
+     await asyncio.sleep(0.5)
+     await event.edit("🕕")
+     await asyncio.sleep(0.5)
+     await event.edit("🕖")
+     await asyncio.sleep(0.5)
+     await event.edit("🕗")
+     await asyncio.sleep(0.5)
+     await event.edit("🕘")
+     await asyncio.sleep(0.5)
+     await event.edit("🕙")
+     await asyncio.sleep(0.5)
 
     
     
